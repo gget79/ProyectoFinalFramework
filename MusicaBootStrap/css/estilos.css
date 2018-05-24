@@ -35,12 +35,11 @@
 	margin-left:1rem;
 	margin-bottom:0;
 }
+
 .barraNavegation{
 	margin-top:0;
-	margin-bottom:0;
-	margin-left:7rem;
-	margin-right:8rem;
-	background:tomato;
+	background-color:tomato;
+	height:5rem;
 }
 .navbar-nav{
 	list-style-type: none;
@@ -48,19 +47,20 @@
 .nav-link{
 	color:black;
 }
-.barraNavegation{
-	height:5rem;
-}
+
 /*Media Queries*/
 /*Para lg*/
 @media (min-width: 1200px) {
-	
+	.nav-item{
+	margin-right:12rem;
+	}
 }
 
 /*Para md*/
 @media (min-width: 992px) and (max-width: 1199px) {
-	.barraNavegation{
-	margin-right:3.7rem;
+	
+	.nav-item{
+	margin-right:5.5rem;
 	}
 }
 
@@ -71,8 +71,8 @@
 	margin-top:8rem;
 	text-align: right;
    }		
-   .barraNavegation{
-	margin-right:2.4rem;
+	.nav-item{
+	margin-right:2rem;
 	}
 }
 
@@ -87,9 +87,9 @@
 	margin-top:5rem;
 	text-align: right;
    }		
-.iconos-redes-sociales{
+	.iconos-redes-sociales{
 	margin:-0.05rem;
-}
+	}
   .jumbotron-logo{
 	width:5rem;
 	height:4rem;
@@ -99,15 +99,21 @@
 	font-size:1rem; 
    }
    .barraNavegation{
-	margin-left:3rem;	
-	margin-right:2.5rem;
+	margin-top:0;
+	height:15rem;
+	}
+	.nav-item{
+	margin:0;
+	}
+	.navbar-nav{
+	list-style-type: circle; 
 	}
 }
 /*Para iphone-4*/
 @media (max-width: 360px) {
 	
-   .barraNavegation{
+   /*.barraNavegation{
 	margin-left:3rem;	
 	margin-right:0.25rem;
-	}
+	}*/
 }
