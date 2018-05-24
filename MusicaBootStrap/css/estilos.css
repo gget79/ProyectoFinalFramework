@@ -3,7 +3,7 @@
   background-size: cover;
   width: 100%;
   height: 100%;
-  background-color:#520000; 
+  background-color:#520000;
 }
 
 .jumbotron{
@@ -22,7 +22,7 @@
 
 .redes-sociales{
 	margin-top:8rem;
-	font-size:3rem; 
+	font-size:3rem;
 	text-align: right;
 }
 .iconos-redes-sociales{
@@ -48,6 +48,36 @@
 	color:black;
 }
 
+.contenedor{
+  min-height: 32rem;
+}
+.contenedorDerecho{
+  min-height: 80rem;
+}
+.contenedorComentario{
+  min-height: 10rem;
+}
+.form-group{
+  margin-top: 1rem;
+  display: flex;
+}
+.centrado-porcentual {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+    width: 100%;
+}
+.iconosComentarios{
+  font-size:5rem;
+  margin-right: 2rem;
+}
+.iconosBusqueda{
+  margin-top: 1rem;
+  margin-right: 0.25rem;
+}
+
 /*Media Queries*/
 /*Para lg*/
 @media (min-width: 1200px) {
@@ -58,35 +88,63 @@
 
 /*Para md*/
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+
 	.nav-item{
 	margin-right:5.5rem;
 	}
+.formatoParrafoTitulo{
+  font-size: 2.5rem;
+}
+  .formatoParrafo{
+    font-size: 1.5rem;
+  }
 }
 
 /*Para sm*/
 @media (min-width: 768px) and (max-width: 991px) {
 	.redes-sociales{
-	font-size: 2.3rem; 
+	font-size: 2.3rem;
 	margin-top:8rem;
 	text-align: right;
-   }		
+   }
 	.nav-item{
 	margin-right:2rem;
 	}
+  .formatoParrafoTitulo{
+    font-size: 2.5rem;
+  }
+    .formatoParrafo{
+      font-size: 1.5rem;
+    }
+    .centrado-porcentual {
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      width: 100%;
+    }
+    .iconosComentarios{
+      font-size:3rem;
+      margin-right: 1rem;
+    }
+    .iconosBusqueda{
+      margin-top: 1rem;
+      margin-right: 0.25rem;
+    }
 }
 
 /*Para xs*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.jumbotron {
     margin-top:2rem;
 	margin-left:3rem;
    }
   .redes-sociales{
-	font-size:1.5rem; 
+	font-size:1.5rem;
 	margin-top:5rem;
 	text-align: right;
-   }		
+   }
 	.iconos-redes-sociales{
 	margin:-0.05rem;
 	}
@@ -96,7 +154,7 @@
 	padding:0;
    }
   .formatoTituloLogo{
-	font-size:1rem; 
+	font-size:1rem;
    }
    .barraNavegation{
 	margin-top:0;
@@ -106,14 +164,28 @@
 	margin:0;
 	}
 	.navbar-nav{
-	list-style-type: circle; 
+	list-style-type: circle;
 	}
-}
-/*Para iphone-4*/
-@media (max-width: 360px) {
-	
-   /*.barraNavegation{
-	margin-left:3rem;	
-	margin-right:0.25rem;
-	}*/
+  .formatoParrafoTitulo{
+    font-size: 2rem;
+  }
+    .formatoParrafo{
+      font-size: 1rem;
+    }
+    .centrado-porcentual {
+      position: absolute;
+      left: 50%;
+      top: 25%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      width: 100%;
+    }
+    .iconosComentarios{
+      font-size:2.5rem;
+      margin-right: 0.75rem;
+    }
+    .iconosBusqueda{
+      margin-top: 1rem;
+      margin-right: 0.25rem;
+    }
 }
