@@ -1,0 +1,32 @@
+body{
+  background:url(../img/fondo.jpg) center center repeat;
+  background-size: cover;
+}
+
+.callout{
+  margin-top: 5%;
+  margin-left:15%;
+  margin-right:15%;
+  background-color: gray;
+  padding: 0;
+}
+
+.contenedores{
+  width: 100%;
+  min-height: 90rem;
+  margin:0;
+  padding: 0;
+}
+
+.contenedorPequeno{
+  min-height: 5rem;
+}
+.contenedorMediano{
+  min-height: 20rem;
+}
+.contenedorGrande{
+  min-height: 30rem;
+}
+.contenedorGigante{
+  min-height: 45rem;
+}
