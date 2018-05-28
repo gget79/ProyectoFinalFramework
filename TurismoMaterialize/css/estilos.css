@@ -1,0 +1,95 @@
+.contenedorPrincipal{
+  width: 99%;
+}
+.formatoImageneslaterales{
+  width: 100%;
+}
+.formatoImagenCentral{
+  width: 100%;
+}
+.formatoContenedorCentral{
+  min-height: 20rem;
+}
+.formatoImageneslateralesIzquierdo{
+  min-height: 18rem;
+}
+.imagenPerfil{
+  margin-bottom: 0;
+  width: 100%;
+  min-height: 5rem;
+}
+.espacioPequeno{
+  min-height: 2.5rem;
+}
+
+.imagenLogo{
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  z-index: 1;
+}
+.formatosCuerpo{
+  margin-top: 6rem;
+}
+
+body{
+  background: url(../img/imagenFondo.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+/*Media Queries*/
+/*Para lg*/
+@media (min-width: 1200px) {
+
+}
+
+/*Para md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/*Para sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .imagenLogo{
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    z-index: 1;
+    width: 25%;
+  }
+  .formatoMedio{
+    font-size: 1.25rem;
+  }
+  .formatoImageneslateralesIzquierdo{
+    min-height: 10rem;
+  }
+  .formatosCuerpo{
+    margin-top: 4rem;
+  }
+  .imagenPerfil{
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 3rem;
+  }
+}
+
+/*Para xs*/
+@media (max-width: 767px) {
+  .imagenLogo{
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    z-index: 1;
+    width: 30%;
+  }
+  .formatoMedio{
+    font-size: 0.75rem;
+  }
+  .formatosCuerpo{
+    margin-top: 1rem;
+  }
+}
